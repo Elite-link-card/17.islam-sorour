@@ -898,7 +898,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #fff;
+  color: #f2f2f2;
   min-height: 16px;
   min-width: 16px;
   height: 16px;
@@ -1035,7 +1035,7 @@ html {
   position: relative;
   border-radius: 12px;
   background: #ffffff00;
-background-image: url(background7.png);
+background-image: url(background9.png);
 }
 @keyframes  url(Untitled\ design\ \(1\).png){
   max-width: 100%;
@@ -2424,8 +2424,8 @@ object-position: center center;
 
 }
 .logo3-picture[data-image-type="profile"] {
-  width:35%;
-   padding-top:35%;
+  width:40%;
+   padding-top:40%;
    border-radius: 90%;
  }  
 
@@ -2441,7 +2441,7 @@ object-position: center center;
 }
 
 .logo4-picture {
-  transform: translateY(-400px) translateX(130%);
+  transform: translateY(-400px) translateX(80%);
 
 }
 .logo4-picture[data-image-type="profile"] {
@@ -2461,20 +2461,20 @@ object-position: center center;
   object-position:  center;
 }
 .logo5-picture {
-  transform: translateY(-175px) translateX(375%);
-  margin-top:-50% ;
+  transform: translateY(-350px) translateX(20%);
+  margin-top:-75% ;
 }
 .logo5-picture[data-image-type="profile"] {
-  width:5%;
-   padding-top:5%;
+  width:60%;
+   padding-top:60%;
    border-radius: 90%;
  }  
 
 
  .logo5-picture .logo5-picture-img {
   position: absolute;
-  width: 1300%;
-  height: 200%;
+  width: 130%;
+  height: 100%;
   top: 0;
   left: 0;
   object-fit: cover;
@@ -2521,21 +2521,23 @@ to {top: -20px;}
 }
 .user-details .user-identity {
   margin-top: -75px;
-  margin-bottom: 0.5rem;
-  color: #ffffff;
+  margin-bottom: 2rem;
+  color: #3C2110;
  width: 100%;
+ font-family: 'Times New Roman', serif;
  transform: translateX(0px)
- translateY(-5px);
+ translateY(15px);
 }
 
 .user-details .user-name {
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 700;
   line-height: 1.3;
+  font-family: 'Times New Roman', serif"
   display: inline;
-  color: #ffffff;
+  color: #3C2110;
   ;
-  
+  margin-left: 15%;
 }
 
 .user-details .user-pronouns {
@@ -2549,13 +2551,16 @@ to {top: -20px;}
 
 
 .user-details .bio-name {
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   font-weight: 400;
+  font-family:'Times New Roman', serif;
   line-height: 1.2;
   font-style: italic;
   margin: 0.25rem 0;
+  margin-left: 25%;
+
   white-space: pre-wrap;
-  width: 100%;
+  width: 75%;
 }
 
 .user-details .user-department {
@@ -2671,7 +2676,7 @@ font-size: 1rem;}
   align-items: center;
   transition: background 0.2s;
   flex: 0 0 auto;
-  color: #ffffff;
+  color: #3C2110;
   font-size: 1.75rem;
   position: relative;
   animation-name: example;
@@ -2750,10 +2755,10 @@ to {top: 0px;}
   line-height: 1.4;
   display: flex;
   align-items: baseline;
-  color: #ffffff;
+  color: #3C2110;
   font-weight: 700;
   justify-content: center;
-
+font-family: 'Times New Roman', serif;
   position: relative;
   animation-name: example;
   animation-duration: 1.5s;
@@ -2869,7 +2874,7 @@ to {top: 0px;} }
   .links-and-notes
 {
 
-  background-color: #a3a1a117;
+  background-color: #0632392e;
   border-radius: 15%;
 max-width: 95%;
 margin: 15px;
@@ -2878,7 +2883,7 @@ justify-content: center;
 
 
 }.logoo{
-  color: #ffffff;
+  color: #F1E7D9;
     min-height: 54px;
     display: flex;
     position: sticky;
@@ -2899,13 +2904,14 @@ justify-content: center;
     animation-name: example2 ;
     animation-duration: 1.5s;
     animation-fill-mode: forwards;
+    font-family:'Times New Roman', serif;
    }
   @keyframes PHOTO {
   from {top: 200px;}
   to {top: 75px;}
   }
   .logoo1{
-    color: #ffffff;
+    color: #F1E7D9;
     display: flex;
     position: sticky;
     align-items: end;  
@@ -2940,13 +2946,13 @@ justify-content: center;
       justify-content: center;
       align-items: center;
       flex: 0 0 auto;
-      color: #ffffff;
+      color: #F1E7D9;
       font-size: 1.75rem;
       position: relative;
     }
    
  button {
-  color: rgb(255, 255, 255);
+  color: #F1E7D9;
   padding: 12px 8px;
   margin: 20px 0;
   position: sticky;
@@ -2987,14 +2993,14 @@ justify-content: center;
 .share-contact-container h2 {
   margin: 0 0 20px 0;
   padding: 10px 30px;
-  color: #ffffff;
-  border-bottom: white solid;
+  color: #F1E7D9;
+  border-bottom: #F1E7D9;
 }
 
 .share-contact-container input {
   border: none;
   border-bottom: #000 solid;
-  background-color: rgb(255, 255, 255);
+  background-color: #F1E7D9;
   color: black;
   font-weight: bold;
   border-radius: 1%;
@@ -3021,7 +3027,7 @@ justify-content: center;
 
 #share-button {
   background-color: #a3a1a150;
-  color: rgb(255, 255, 255);
+  color: #F1E7D9;
   font-size: 25px;
 }
 
@@ -3034,7 +3040,7 @@ justify-content: center;
   top: 0;
   bottom: 0;
   right: 0;
-  color: rgb(255, 255, 255);
+  color: #F1E7D9;
   font-size: 50px;
   /* box-shadow: 0 0 10px black; */
   transform: translateX(150px);
