@@ -1035,7 +1035,7 @@ html {
   position: relative;
   border-radius: 12px;
   background: #ffffff00;
-background-image: url(background3.png);
+background-image: url(background7.png);
 }
 @keyframes  url(Untitled\ design\ \(1\).png){
   max-width: 100%;
@@ -2172,7 +2172,8 @@ fieldset {
 
 
   .blinq-card .card-header {
-    border: radius 5000px;
+    border: radius 0px;
+    index: ;
   }
 
   .blinq-card .card-header .banner-image {
@@ -2222,7 +2223,7 @@ fieldset {
 .card-header .circle-container {
   border-top-right-radius: 12px;
   border-top-left-radius: 12px;
-  max-height: 7rem;
+  max-height: 1rem;
 }
 
 .card-header[data-image-type="logo"],
@@ -2270,7 +2271,7 @@ fieldset {
   border-top-right-radius: 0 !important;
   transform: translate(-50%, -50%);
   left: 50%;
-  top: 50%;
+  top: 0%;
 }
 
 .card-header .banner-image[data-image-type="cover"],
@@ -2301,14 +2302,14 @@ fieldset {
 .card-header .circle-container:before {
   content: "";
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 5%;
+  left: %;
   transform: translate(-50%, -50%);
   border-radius: 50%;
   background: rgb(var(--card-color));
   mix-blend-mode: screen;
   opacity: 0.38;
-  width: 75%;
+  width: 0%;
   padding-top: 75%;
   transform-origin: center;
   transition: transform 0.2s;
@@ -2318,13 +2319,12 @@ fieldset {
 .card-header .blinq-icon {
   position: absolute;
   color: #000000;
-  height: 80%;
-  top: 50%;
-  left: 50%;
+  height: 0%;
+  left: 00%;
   transform: translate(-50%, -50%);
   user-select: none;
-  font-size: 180px;
-  font-size: 2rem;
+  font-sizepx;
+  font-size: 1rem;
 }
 
 .banner-image-container {
@@ -2341,7 +2341,7 @@ fieldset {
 
   z-index: 1;
   left: 5%;
-  transform: translateX(15px) translateY(-225px);
+  transform: translateX(15%) translateY(-300px);
   position:relative;
   animation-name:PHOTO;
   animation-duration: 1.5s;
@@ -2353,8 +2353,8 @@ to {top: 75px;}
 }
 
 .left-picture[data-image-type="profile"] {
- width: 75%;
-  padding-top: 75%;
+ width: 70%;
+  padding-top:70%;
   border-radius: 90%;
 }
 
@@ -2371,7 +2371,7 @@ to {top: 75px;}
   top: 0;
   left: 0;
   object-fit: cover;
-  object-position: center center;
+  object-position:center center;
 }
 
 .left-picture[data-image-type="logo"] .left-picture-img {
@@ -2384,7 +2384,7 @@ to {top: 75px;}
 
 .left-picture[data-image-type="profile"]::before {
   content: "";
-  background-color: #ffffff;
+  background-color: #CFBEA9;
   width: calc(100% + 2 * 3px);
   height: calc(100% + 2 * 3px);
   position: absolute;
@@ -2419,9 +2419,18 @@ object-position: center center;
    border-radius: 00%;
  }
 
+.logo3-picture {
+  transform: translateY(-250px) translateX(5%);
+
+}
+.logo3-picture[data-image-type="profile"] {
+  width:35%;
+   padding-top:35%;
+   border-radius: 90%;
+ }  
 
 
- .top-picture .top-picture-img {
+ .logo3-picture .logo3-picture-img {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -2431,7 +2440,46 @@ object-position: center center;
   object-position: center center;
 }
 
+.logo4-picture {
+  transform: translateY(-400px) translateX(130%);
 
+}
+.logo4-picture[data-image-type="profile"] {
+  width:40%;
+   padding-top:40%;
+   border-radius: 90%;
+ }  
+
+
+ .logo4-picture .logo4-picture-img {
+  position: absolute;
+  width: 115%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  object-position:  center;
+}
+.logo5-picture {
+  transform: translateY(-175px) translateX(375%);
+  margin-top:-50% ;
+}
+.logo5-picture[data-image-type="profile"] {
+  width:5%;
+   padding-top:5%;
+   border-radius: 90%;
+ }  
+
+
+ .logo5-picture .logo5-picture-img {
+  position: absolute;
+  width: 1300%;
+  height: 200%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  object-position:  center;
+}
 .right-picture .right-picture-img {
   position: absolute;
   width: 100%;
@@ -2455,8 +2503,8 @@ object-position: center center;
 }
 
 .right-picture[data-image-type="profile"] {
-  width: 40%;
-   padding-top: 40%;
+  width: 30%;
+   padding-top: 30%;
    border-radius: 10%;
  }
 .user-details {
