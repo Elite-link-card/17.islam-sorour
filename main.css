@@ -2420,8 +2420,16 @@ object-position: center center;
  }
 
 .logo3-picture {
-  transform: translateY(-250px) translateX(5%);
+  transform: translateY(-300px) translateX(5%);
 
+  position:relative;
+  animation-name:PHOTO;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+ }
+@keyframes PHOTO {
+from {top: 200px;}
+to {top: -250px;}
 }
 .logo3-picture[data-image-type="profile"] {
   width:40%;
@@ -2441,8 +2449,16 @@ object-position: center center;
 }
 
 .logo4-picture {
-  transform: translateY(-400px) translateX(80%);
+  transform: translateY(-475px) translateX(80%);
 
+  position:relative;
+  animation-name:PHOTO;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+ }
+@keyframes PHOTO {
+from {top: 200px;}
+to {top: 75px;}
 }
 .logo4-picture[data-image-type="profile"] {
   width:40%;
@@ -2461,8 +2477,16 @@ object-position: center center;
   object-position:  center;
 }
 .logo5-picture {
-  transform: translateY(-350px) translateX(20%);
+  transform: translateY(-425px) translateX(20%);
   margin-top:-75% ;
+  position:relative;
+  animation-name:PHOTO;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+ }
+@keyframes PHOTO {
+from {top: 200px;}
+to {top: 75px;}
 }
 .logo5-picture[data-image-type="profile"] {
   width:60%;
